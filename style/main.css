@@ -1,0 +1,547 @@
+body {
+    margin: 0;
+    width: 1400px;
+    height: 590px;
+}
+
+.wrapper {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+/* Navidation bar */
+.navbar {
+    background-color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar__name {
+    display: inline-block;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.navbar__ax {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar__it {
+    color: #ff8b38;
+    font-weight: lighter;
+}
+
+nav {
+    display: inline-block;
+    padding-left: 48%;
+    color: white;
+    vertical-align: 10px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Registration main bar */
+.registration {
+    background-image: url(../img/background_axit.png);
+    height: 641px;
+}
+
+.registration__info {
+    width: 48%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.registration__description {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.registration__line {
+    margin: 30px 0;
+    width: 62px;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 90px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 34px;
+}
+
+.registration__form {
+    display: inline-block;
+    height: 370px;
+    width: 368px;
+    margin-top: 139px;
+    margin-left: 190px;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.registration__form_free {
+    color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.registration__form_trial {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.registration__form_menu {
+    background-color: rgb(236, 235, 235);
+    padding: 1px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 75%;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid #86878B;
+    margin: 16px 0;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.registration__form_button {
+    width: 100%;
+    height: 54px;
+    margin-top: 28px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Social media */
+.socialmedia {
+    width: 100%;
+    height: 106px;
+    border-bottom: 2px solid #ccc;
+}
+
+.socialmedia__text {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.socialmedia__text_name {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.socialmedia__text_description {
+    margin-top: 3px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.socialmedia__icons {
+    display: inline-block;
+    width: 650px;
+
+}
+
+.socialmedia__icons ul {
+    padding-left: 50px;
+}
+
+.socialmedia__icons li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+/* Tabs bar */
+.tabs {
+    background-color: rgb(238, 237, 237);
+}
+
+.tabs__list {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 145px 0;
+    width: 112px;
+}
+
+.tabs__list_first {
+    background-color: orange;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 1px;
+}
+
+.tabs__list_second {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 1px;
+}
+
+.tabs__list_third {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 1px;
+}
+
+.tabs__text {
+    display: inline-block;
+    width: 476px;
+    padding-left: 99px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tabs__text_name {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.tabs__text_description {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #86878B;
+}
+
+.tabs__text_subdescription {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.tabs__text_button_download {
+    background-color: orange;
+    color: white;
+    padding: 12px 30px;
+    font-size: 15px;
+    margin: 51px 0 50px 0;
+    border-color: #fff;
+    font-weight: bold;
+}
+
+.tabs__image {
+    display: inline-block;
+    width: 320px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+/* Advantages bar */
+.advantages {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.header_advantages {
+    margin-top: 76px;
+    text-align: center;
+}
+
+.advantages__text {
+    padding: 0;
+    margin: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878B;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 62px;
+    background-color: #ff8b38;
+    border-color: #ff8b38;
+}
+
+.cards {
+    display: inline-block;
+    padding: 80px 16px;
+    width: 350px;
+    height: 197px;
+    text-align: center;
+  }
+.round {
+    margin: 0 auto;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    padding-top: 22px;
+}
+
+.header_advantages h2 {
+    text-transform: uppercase;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+}
+
+h3 {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 29px 0 22px;
+}
+
+/* Prices tabs */
+.prices {
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 884px;
+}
+.prices__header {
+    margin-top: 76px;
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+.pricing__text {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 80px;
+}
+
+.prices__cards {
+    font-weight: bold;
+    color: rgb(238, 237, 237);;
+}
+
+.prices__cards_basic {
+    display: inline-block;
+    background-color: #212121;
+    padding-top: 20px;
+    width: 330px;
+}
+.prices__cards_name {
+    border-bottom: 1px solid rgb(238, 237, 237);;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+.prices__cards_price {
+    border-bottom: 1px solid rgb(238, 237, 237);;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    height: 50px;
+}
+
+.prices__cards_cost {
+    font-size: 55px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.prices__cards_duration {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 20px;
+    height: 40px;
+    font-weight: normal;
+}
+
+.prices__cards_line {
+    width: 330px;
+    height: 3px;
+    background-color: orange;
+    padding: 0;
+    margin: 0;
+}
+
+.prices__cards_popular {
+    width: 330px;
+    height: 32px;
+    padding-top: 8px;
+    background-color: orange;
+    color: rgb(238, 237, 237);
+    text-transform: uppercase;
+}
+
+.prices__cards_professional {
+    background-color: #212121;
+    display: inline-block;
+    width: 330px;
+    padding-top: 20px;
+    margin: 0 40px;
+}
+
+.prices__cards_enterprise {
+    background-color: #212121;
+    display: inline-block;
+    width: 330px;
+    padding-top: 20px;
+}
+
+.prices__cards_benefits {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #888888;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.prices__cards_benefits ul {
+    padding: 0;
+    margin: 0;
+}
+.prices__cards_benefits li {
+    width: 330px;
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+/* Reviews */
+
+/* .reviews {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 884px;
+}
+.reviews__header {
+    margin-top: 76px;
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+.reviews__text {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 80px;
+}
+
+.reviews__cards {
+    width: 270px;
+}
+
+.reviews__cards_first {
+    display: inline-block;
+}
+
+.reviews__cards_second {
+    display: inline-block;
+}
+
+
+.reviews__cards_third {
+    display: inline-block;
+}
+
+.reviews__textreview {
+    background-color: rgb(238, 237, 237);
+    color: #444;
+}
+
+.reviews__first_photo {
+
+}
+
+.reviews__second_photo {
+
+}
+
+.reviews__third_photo {
+
+} */
+
+/* Prototypes bar */
+.background_prototypes {
+    background-image: url(../img/background_prototypes.png);
+    width: 100%;
+}
+
+.download_prototypes {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 76px 0 0 0;
+}
+
+.download_prototypes h2 {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.button_download {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 12px 30px;
+    font-size: 14px;
+    margin: 30px 0 50px 0;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.footer_icons {
+    text-align: center;
+}
+
+.footer_icons ul {
+    margin: 0;
+    padding: 0;
+}
+.footer_icons li {
+    display: inline-block;
+}
